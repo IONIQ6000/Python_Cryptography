@@ -1,5 +1,5 @@
 # This code covers question 3 on assignment 1
-Xstream = [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]  # The X,Y,Z streams provided from the assisgnment
+Xstream = [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]  # The X,Y,Z streams provided from the assignment
 Ystream = [1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1]
 Zstream = [1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0]
 print("The original contents of X,Y,Z from Question 3 \n ")
@@ -7,7 +7,7 @@ print("X = (x0,x1,...,x18) = ", *Xstream, sep="", )
 print("Y = (y0, y1,..., y21) = ", *Ystream, sep="", )
 print("Z = (z0, z1,..., z22) = ", *Zstream, sep="", )
 finalbits = []
-bitclock = 0  # The varible that determines how many times the code will run.
+bitclock = 0  # The variable that determines how many times the code will run.
 maj = []
 
 
